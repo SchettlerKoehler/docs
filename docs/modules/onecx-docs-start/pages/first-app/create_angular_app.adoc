@@ -70,7 +70,7 @@ Now we can also create a details page for the items in the search results by run
 ----
 nx generate @onecx/nx-plugin:details hello
 ----
-NOTE: Details to generating a details page can be found {generator_base_url}/details-page.adoc[here].
+NOTE: Details to generating a details page can be found {generator_base_url}/create-details.adoc[here].
 
 [#adding-create-update-page]
 ==== Add a Create-Update Dialog

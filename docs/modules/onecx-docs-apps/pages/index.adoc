@@ -4,13 +4,16 @@
 
 = OneCX Applications
 
-The OneCX Platform is a modular system which provides a lot of standard services. Here the collection of documentation about OneCX Applications, their features and how to use them.
+The OneCX Platform is a modular system. Based on a minimum set of core applications, it can be extended with various feature applications to meet specific business needs.
+
 
 == Core Applications
+The minimum set of applications provides the essential functionality required to operate the OneCX Platform effectively.
 
 include::_core-app-table.adoc[]
 
 
 == Feature Applications
+Feature applications extend the capabilities of the OneCX Platform by providing additional functionality that can be integrated as needed.
 
 include::_feature-app-table.adoc[]

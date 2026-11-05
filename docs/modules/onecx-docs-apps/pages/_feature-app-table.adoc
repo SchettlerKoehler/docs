@@ -4,27 +4,39 @@
 | Application | Description
 
 | xref:documentation:onecx-announcement:index.adoc[Announcement Management]
-| Manages announcements and notifications within the OneCX platform.
+| Manages announcements assignable to workspaces and applications
 
 | xref:documentation:onecx-bookmark:index.adoc[Bookmark Management]
 | Bookmarks for quick access to frequently used items
 
 | xref:documentation:onecx-data-orchestrator:index.adoc[Data Orchestrator]
-| Manages data synchronization and integration between different OneCX services and external systems.
+| Manages K8s Custom Resources used by the OneCX platform
 
 | xref:documentation:onecx-document-management:index.adoc[Document Management]
 | Managing documents in a user-friendly and efficient manner
 
 | xref:documentation:onecx-help:index.adoc[Help Management]
-| Provide users easy access to help resources and support within the portal
+| Provide users easy access to help resources 
+
+| xref:documentation:onecx-iam:index.adoc[Identity Access Management]
+| Handles user authentication, authorization, and identity management if Keycloak is used as the identity provider.
+
+| xref:documentation:onecx-parameter:index.adoc[Parameter Management]
+| Define and manage parameters used by applications
 
 | xref:documentation:onecx-service:index.adoc[Service]
-| Provide various services
+| Provide various special services
 
 | xref:documentation:onecx-test:index.adoc[Test]
 | Provide special functionality for testing service
 
+| xref:documentation:onecx-tenant:index.adoc[Tenant Management]
+| Designed to handle multi-tenancy, allowing a single instance of the software to serve multiple distinct customer organizations (tenants) while keeping their data and configurations strictly isolated.
+
+| xref:documentation:onecx-theme:index.adoc[User Profile]
+| Allows users to manage their personal data, preferences, and avatar images while integrating with identity management systems like Keycloak.
+
 | xref:documentation:onecx-welcome:index.adoc[Welcome Management]
-| Customizing the start page for users
+| It allows authorized administrators to configure the initial landing experience, including managing background images, styling options, and displaying important announcements to users upon login.
 
 |===
